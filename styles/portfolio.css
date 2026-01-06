@@ -47,6 +47,7 @@ nav {
 .section-heading{
     max-width: 1127px;
     text-align: center;
+    margin: 0 auto;
 
 }
 .section-heading h2{
@@ -146,3 +147,142 @@ nav .menu a {
     font-size: 20px;
     
 }
+.work {
+    padding-top: 130px;
+
+     
+}
+.work .work-container {
+            width: 71%;
+            max-width: 1140px;
+            margin: 0 auto;
+}
+.work .work-container .work-info {
+    display: flex;
+    gap: 24px;
+   
+
+}
+.work .work-container .work-card {
+    background-color: #FFFFFF;
+    max-width: 267px;
+    border-radius: 5px;
+    padding: 30px;
+    box-shadow: 0 6px 50px 0#00000077;
+}
+.work-card img {
+    max-width: 44px;
+    margin-bottom: 30px;
+
+}
+.work-card h4 {
+    font-size: 20px;
+    color: #181818;
+    margin-bottom: 20px;
+
+}
+
+.work-card p {
+    font-size: 16px;
+    color: #757575;
+    line-height: 28px;
+    /* margin-bottom: 30px; */
+
+}
+#resume {
+   padding-top: 130px;
+}
+.resume-containar hr{
+margin: 30px 0;
+}
+#resume .resume-containar {
+    width: 71%;
+    max-width: 1140px;
+    margin: 113px auto 0;
+    display: flex;
+    gap: 24px;
+
+}
+.resume-containar .education-title {
+    color: #474747;
+    font-size: 30px;
+    margin-bottom: 30px;
+
+}
+.card {
+    max-width: 511px;
+    margin-right: 47px;
+    /* background-color: #FD6E0A; */
+
+}
+.card .title {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #474747;
+}
+.card .h-title {
+    font-size: 20px;
+    font-weight: 600px;
+    color: #757575;
+    margin-bottom: 20px;
+
+
+}
+.card .p-title {
+    font-size: 16px;
+    font-weight:normal;
+    color: #757575;
+    line-height: 28px;
+
+}
+
+.button{
+    text-align: center;
+}
+#massage {
+    margin-top: 113px;
+    background-color: #FFF8F3;
+    width: 1600px;
+    padding: 130px 0;
+
+
+}
+.footer {
+    display: flex;
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+    gap: 116px;
+
+
+}
+.footer .foote {
+    max-width: 562px;
+
+}
+.footer h2{
+    font-size: 35px;
+    color:#181818;
+    margin-bottom: 20px;
+
+}
+.footer .foote p {
+    color: #474747;
+    line-height: 28px;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+.footer .img a {
+    margin-right: 24px;
+
+}
+.footer form input,.footer form textarea {
+    width: 461px;
+    padding: 18px 31px;
+    margin-bottom: 24px;
+    border: none;
+    border-radius: 5px;
+    color: #757575;
+}
+
